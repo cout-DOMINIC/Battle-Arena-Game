@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 888ba4b60c95c418bb36ffef71507964
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Irianis ADF Std
+  fontNames:
+  - Irianis ADF Std
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 22935cfa8124f402f9f75638d8e4b099, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

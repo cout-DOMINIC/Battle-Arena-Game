@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6c7124f5cfe0957488e7857231843b98
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 246e6874ab17f8d45a7c97fbb80e3c64
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/ChooseCharacter.unity
+    guid: 544fcfeb99c54564da37b6d66a3119a7
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene.unity
+    guid: 512a5e5cfb9854ae6b3dc96d626f4eb5
+  - enabled: 1
+    path: Assets/Scenes/Battle.unity
+    guid: 03ceae232bd8b70418784d1e0b17f64c
+  - enabled: 1
+    path: Assets/Scenes/Reward.unity
+    guid: 44274a52a6c784343a77239a0ae5a698
+  - enabled: 1
+    path: Assets/Scenes/WonFIghts/WonFirstFight.unity
+    guid: f40e050f43e1b4253a828afc4dd1a0f7
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene2.unity
+    guid: 8f5966705ebac4f00a2ca1cdc3407344
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene3.unity
+    guid: f638b54cde3aa42ba8771c64ebad830b
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene4.unity
+    guid: b39664fe2f0db486b9b4a195c6c813ea
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene5.unity
+    guid: 7059144f6a63f455abef642877c742f1
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene6.unity
+    guid: e6d25bb63aa074905bf238419c69a892
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene7.unity
+    guid: 4af8dbe3369094e1fbb1f912c7018605
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene8.unity
+    guid: 4c547c7f9ecde4517a8ccebf5a2c95b9
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene9.unity
+    guid: 9237f6ab3376a4f20b18eefe5d697c04
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene10.unity
+    guid: 80f4e167ef863453583cbff289effbb9
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene11.unity
+    guid: ce23b2c32bfaf4661bed1f78382a9903
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene12.unity
+    guid: 40ec9fb5d5537434c8e7a4bc165da75f
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene13.unity
+    guid: c4301cb1e55654ad4ba035023ad93354
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene14.unity
+    guid: 2e507b319ff734348a609c5c0733f05b
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene15.unity
+    guid: affe292b094754440aea239f457cce36
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene16.unity
+    guid: dfb8833fcf24e4487ba6f2dd5fab569d
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene17.unity
+    guid: d976222990d404b4a8fbd1ef84f1cee5
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene18.unity
+    guid: 5b7d0539a3ae24352bf647778766ed76
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene19.unity
+    guid: 15ff0e940975c40ceaee299f301f6367
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene20.unity
+    guid: ec1709937f7344e5f9799b68e02541d8
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene21.unity
+    guid: 778a3d7baac554dd6a5dcea990d63479
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene22.unity
+    guid: 7c77ba8d13a9e4e85919532a7ab407d9
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene23.unity
+    guid: c61d9f951edef43c38151aad03593fa9
+  - enabled: 1
+    path: Assets/Scenes/WonFIghts/WonSecondFight.unity
+    guid: 0e48c03749d1c41e7b4add40e480c155
+  - enabled: 1
+    path: Assets/Scenes/WonFIghts/WonThirdFight.unity
+    guid: 9c8301859d3c2446d8740cd21e4393b2
+  - enabled: 1
+    path: Assets/Scenes/Epilogue/Epilogue.unity
+    guid: cc126ffd166d5405694601bbf66d4416
+  - enabled: 1
+    path: Assets/Scenes/Epilogue/Epilogue1.unity
+    guid: b4cef4ba16c6d4618a3b8a5750b4a36a
+  - enabled: 1
+    path: Assets/Scenes/Epilogue/Epilogue2.unity
+    guid: ddd527db768334ca990a0a5ff7c1b214
+  - enabled: 1
+    path: Assets/Scenes/Epilogue/Epilogue3.unity
+    guid: ff9b5ee28c21d4d5b816a67ae0fc1e3e
+  - enabled: 1
+    path: Assets/Scenes/Epilogue/Epilogue1_5.unity
+    guid: 10409dcfb87a64ffb8d3f96b55ec6b73
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene24.unity
+    guid: 2437a871c07cd483e85d661a49a733cf
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene25.unity
+    guid: b16d507c0f7514d7a9d3c33db14df81f
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene26.unity
+    guid: a4bc6bf9279dd419dab90887f0ce6fb1
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene27.unity
+    guid: a1fb88921cbad452fa0559a49302ad86
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene28.unity
+    guid: 1f640f1179ec340899d5bb8f29c91245
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene29.unity
+    guid: a73ac06da4a414c769a39e862be926d5
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene30.unity
+    guid: 3f12c00785bc64c1b832ebd3681fb5a5
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene31.unity
+    guid: b46cec46934c84154bf7da5aef947728
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene33.unity
+    guid: 8215081a2a7644bfaa4832a42b543e42
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene34.unity
+    guid: 22d9a2511705c4b3989aefd1468cd1c2
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScene13_5.unity
+    guid: b45261b3e398f4892b724fe97fcd4036
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene32_5.unity
+    guid: 11ec133ef9fb9478cbc8cfb6424255c0
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene31_5.unity
+    guid: dfe5d0df818ae4718a222e830105ba9e
+  - enabled: 1
+    path: Assets/Scenes/StoryScenes/StoryScenesAftersFights/StoryScene32.unity
+    guid: b96e55fb037c841f0b60d751663f67c5
+  - enabled: 1
+    path: Assets/Scenes/Epilogue/Epilogue01.unity
+    guid: 7318344c3ac4e4bdb98b240362c2379c
+  - enabled: 1
+    path: Assets/Scenes/Epilogue/Epilogue02.unity
+    guid: c6fe9500ec422438795550373a4911ee
+  - enabled: 1
+    path: Assets/Scenes/Epilogue/Epilogue03.unity
+    guid: dba348ed386564f6c9d872afbf8217d5
+  - enabled: 1
+    path: Assets/Scenes/Epilogue/Epilogue04.unity
+    guid: 3288c44d44a6844c090a0d638bad216e
+  - enabled: 1
+    path: Assets/Scenes/Epilogue/Epilogue05.unity
+    guid: ca5afe32433b940a09422bcfd743c12e
+  m_configObjects: {}

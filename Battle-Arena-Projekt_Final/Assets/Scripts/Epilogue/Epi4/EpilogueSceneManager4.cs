@@ -1,0 +1,66 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+public class EpilogueSceneManager4 : MonoBehaviour
+{
+    public Text nameText;
+    public Text dialogueText;
+    public Animator animator;
+    public EpilogueScene4 epilogue4;
+    private Queue<string> sentences;
+
+    void Start()
+    {
+        sentences = new Queue<string>();
+        StartDialogue(epilogue4);
+        AudioManager.instance.StopMusic();
+    }
+
+    public void StartDialogue (EpilogueScene4 epilogue4)
+    {
+        Debug.Log("Starting conversation with " + epilogue4.name);
+
+        animator.SetBool("IsOpen", true);
+        nameText.text = epilogue4.name;
+        sentences.Clear();
+
+        foreach(string sentence in epilogue4.sentences)
+        {
+            sentences.Enqueue(sentence);
+        }
+        DisplayNextSentence();
+    }
+
+    public void DisplayNextSentence()
+    {
+        if(sentences.Count == 0)
+        {
+            EndDialogue();
+            return;
+        }
+
+        string sentence = sentences.Dequeue();
+        StopAllCoroutines();
+        StartCoroutine(TypeSenctence(sentence));
+    }
+
+    IEnumerator TypeSenctence (string sentence)
+    {
+        dialogueText.text = "";
+        foreach(char letter in sentence.ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(0.2f);
+        }
+    }
+
+    void EndDialogue()
+    {
+        Debug.Log("End of conversation.");
+        animator.SetBool("IsOpen", false);
+        Application.Quit();
+    }
+}
